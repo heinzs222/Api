@@ -1,0 +1,23 @@
+.ContactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ContactList > * {
+  width: 40%;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.add-button {
+  margin: 5px 50%;
+}
+.inputArea {
+  display: flex;
+  flex-direction: column;
+}
+.inputArea > * {
+  margin: 5px;
+}
